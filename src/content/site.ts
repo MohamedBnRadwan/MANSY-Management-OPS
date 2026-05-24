@@ -165,6 +165,87 @@ export const imageAssets = [
       "professional commercial lobby clean",
     ],
   },
+  {
+    file: "who-we-serve-commercial-building-owners.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "commercial office tower owner property exterior",
+      "premium commercial building facade daylight",
+      "institutional commercial real estate exterior",
+    ],
+  },
+  {
+    file: "who-we-serve-administrative-building-owners.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "administrative office building professional exterior",
+      "corporate office block architecture clean lines",
+      "business district office facade premium",
+    ],
+  },
+  {
+    file: "who-we-serve-real-estate-developers.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "real estate development site planning meeting",
+      "developer reviewing commercial project model",
+      "commercial development planning desk architecture",
+    ],
+  },
+  {
+    file: "who-we-serve-retail-strip-owners.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "modern retail strip center exterior",
+      "community retail plaza storefronts daylight",
+      "open air retail strip architecture premium",
+    ],
+  },
+  {
+    file: "who-we-serve-office-building-owners.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "premium office tower glass exterior",
+      "modern business center facade urban",
+      "corporate office property architecture evening",
+    ],
+  },
+  {
+    file: "who-we-serve-mixed-use-project-owners.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "mixed use development retail offices public realm",
+      "urban mixed use complex premium architecture",
+      "modern mixed use plaza exterior",
+    ],
+  },
+  {
+    file: "who-we-serve-asset-investors.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "commercial real estate investor meeting premium",
+      "asset investment strategy documents office",
+      "property investment boardroom professional",
+    ],
+  },
+  {
+    file: "who-we-serve-facility-management-companies.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "facility management team building operations",
+      "commercial property operations inspection professional",
+      "building maintenance management commercial interior",
+    ],
+  },
+  {
+    file: "who-we-serve-underperforming-assets.jpg",
+    page: "Who We Serve Card",
+    queries: [
+      "older commercial property needing repositioning",
+      "vacant commercial units exterior urban",
+      "underperforming retail building redevelopment potential",
+    ],
+  },
 ];
 
 export const pages = {
@@ -598,15 +679,51 @@ export const methodSteps = [
 ];
 
 export const audiences = [
-  "Commercial building owners",
-  "Administrative building owners",
-  "Real estate developers",
-  "Retail strip owners",
-  "Office building owners",
-  "Mixed-use project owners",
-  "Asset investors",
-  "Facility management companies",
-  "Owners with underperforming assets",
+  {
+    title: "Commercial building owners",
+    icon: "building" as IconName,
+    description: "Owners seeking sharper positioning, better tenancy, and stronger long-term asset performance.",
+  },
+  {
+    title: "Administrative building owners",
+    icon: "clipboard" as IconName,
+    description: "Operators who need structured leasing, cleaner management systems, and consistent occupancy quality.",
+  },
+  {
+    title: "Real estate developers",
+    icon: "compass" as IconName,
+    description: "Development teams preparing assets for launch, market fit, and stronger commercial absorption.",
+  },
+  {
+    title: "Retail strip owners",
+    icon: "store" as IconName,
+    description: "Retail landlords refining tenant mix, frontage strategy, and customer movement across the property.",
+  },
+  {
+    title: "Office building owners",
+    icon: "target" as IconName,
+    description: "Owners aligning workspace positioning, lease structure, and value growth across office assets.",
+  },
+  {
+    title: "Mixed-use project owners",
+    icon: "sparkles" as IconName,
+    description: "Projects that need coordinated leasing, identity, and operational logic across multiple uses.",
+  },
+  {
+    title: "Asset investors",
+    icon: "dollar" as IconName,
+    description: "Investors focused on clearer reporting, better returns, and measurable commercial improvement.",
+  },
+  {
+    title: "Facility management companies",
+    icon: "wrench" as IconName,
+    description: "Partners looking to connect day-to-day building operations with leasing and performance outcomes.",
+  },
+  {
+    title: "Owners with underperforming assets",
+    icon: "lineChart" as IconName,
+    description: "Assets facing vacancy, weak positioning, or revenue gaps that need a practical recovery strategy.",
+  },
 ];
 
 export const propertyTypes = [

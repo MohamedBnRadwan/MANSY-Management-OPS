@@ -19,9 +19,18 @@ export function AssetGuidance() {
           </div>
           {imageAssets.map((asset) => (
             <div className="asset-table__row" role="row" key={asset.file}>
-              <span role="cell">{asset.page}</span>
-              <code role="cell">{asset.file}</code>
-              <span role="cell">{asset.queries.join(" | ")}</span>
+              <span className="asset-table__cell" role="cell">
+                <strong className="asset-table__label">Page</strong>
+                <span>{asset.page}</span>
+              </span>
+              <span className="asset-table__cell" role="cell">
+                <strong className="asset-table__label">Filename</strong>
+                <code>{asset.file}</code>
+              </span>
+              <span className="asset-table__cell" role="cell">
+                <strong className="asset-table__label">Search queries</strong>
+                <span>{asset.queries.join(" | ")}</span>
+              </span>
             </div>
           ))}
         </div>
