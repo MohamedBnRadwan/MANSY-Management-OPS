@@ -7,6 +7,7 @@ type HeroProps = {
   intro: string;
   image: string;
   imageAlt: string;
+  video?: string;
   primaryHref?: string;
   primaryLabel?: string;
   secondaryHref?: string;
@@ -19,6 +20,7 @@ export function Hero({
   intro,
   image,
   imageAlt,
+  video,
   primaryHref,
   primaryLabel,
   secondaryHref,
@@ -27,7 +29,21 @@ export function Hero({
   return (
     <section className="hero">
       <div className="hero__media">
-        <Image src={image} alt={imageAlt} fill priority sizes="100vw" />
+        {video ? (
+          <video
+            className="hero__video"
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster={image}
+            preload="metadata"
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+        ) : (
+          <Image src={image} alt={imageAlt} fill priority sizes="100vw" />
+        )}
         <div className="hero__shade" />
       </div>
       <div className="container hero__content" data-aos="fade-up">

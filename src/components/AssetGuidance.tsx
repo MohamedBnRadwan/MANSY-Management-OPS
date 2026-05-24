@@ -6,15 +6,16 @@ export function AssetGuidance() {
       <div className="container">
         <div className="section-heading">
           <p className="eyebrow">Image sourcing guide</p>
-          <h2>Download these image files into public/assets/images.</h2>
+          <h2>Download these image and video files into public/assets.</h2>
           <p>
-            Use Unsplash or Pexels, choose clean architectural photography, and rename the files exactly as listed.
+            Use the listed source site, choose clean commercial visuals, and rename the files exactly as listed.
           </p>
         </div>
         <div className="asset-table" role="table" aria-label="Recommended image filenames and search queries">
           <div className="asset-table__row asset-table__row--head" role="row">
             <span role="columnheader">Page</span>
             <span role="columnheader">Filename</span>
+            <span role="columnheader">Source</span>
             <span role="columnheader">Search queries</span>
           </div>
           {imageAssets.map((asset) => (
@@ -26,6 +27,10 @@ export function AssetGuidance() {
               <span className="asset-table__cell" role="cell">
                 <strong className="asset-table__label">Filename</strong>
                 <code>{asset.file}</code>
+              </span>
+              <span className="asset-table__cell" role="cell">
+                <strong className="asset-table__label">Source</strong>
+                <span>{asset.source}</span>
               </span>
               <span className="asset-table__cell" role="cell">
                 <strong className="asset-table__label">Search queries</strong>

@@ -18,6 +18,7 @@ export default function Home() {
         intro={pages.home.intro}
         image={pages.home.image}
         imageAlt={pages.home.imageAlt}
+        video="/assets/videos/home-hero-commercial-building.mp4"
         primaryHref="/services"
         primaryLabel="Explore Services"
         secondaryHref="/method"

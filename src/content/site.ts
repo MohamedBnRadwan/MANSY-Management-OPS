@@ -69,6 +69,7 @@ export const imageAssets = [
   {
     file: "home-hero-modern-commercial-building.jpg",
     page: "Home",
+    source: "Pexels",
     queries: [
       "modern commercial building night architecture",
       "premium office building exterior glass navy",
@@ -76,8 +77,19 @@ export const imageAssets = [
     ],
   },
   {
+    file: "home-hero-commercial-building.mp4",
+    page: "Home intro video",
+    source: "Pexels",
+    queries: [
+      "modern commercial building exterior cinematic video",
+      "premium office tower facade drone video",
+      "luxury mixed use commercial building dusk video",
+    ],
+  },
+  {
     file: "about-premium-property-management.jpg",
     page: "About",
+    source: "Unsplash",
     queries: [
       "modern office building glass facade professional",
       "executive commercial real estate building",
@@ -87,6 +99,7 @@ export const imageAssets = [
   {
     file: "services-overview-commercial-lobby.jpg",
     page: "Services",
+    source: "Pexels",
     queries: [
       "premium commercial lobby clean architecture",
       "modern office lobby marble glass",
@@ -96,6 +109,7 @@ export const imageAssets = [
   {
     file: "tenant-mix-retail-community.jpg",
     page: "Tenant Mix Strategy",
+    source: "Pexels",
     queries: [
       "premium retail plaza mixed use development",
       "modern retail street commercial tenants",
@@ -105,6 +119,7 @@ export const imageAssets = [
   {
     file: "leasing-management-retail-frontage.jpg",
     page: "Leasing Management",
+    source: "Pexels",
     queries: [
       "modern retail storefront glass evening",
       "commercial leasing retail space exterior",
@@ -114,6 +129,7 @@ export const imageAssets = [
   {
     file: "asset-performance-office-building-night.jpg",
     page: "Asset Performance",
+    source: "Pexels",
     queries: [
       "office building night lights performance",
       "commercial building exterior dusk glass",
@@ -123,6 +139,7 @@ export const imageAssets = [
   {
     file: "method-architecture-detail.jpg",
     page: "The Mansy Method",
+    source: "Unsplash",
     queries: [
       "architectural detail glass facade minimal",
       "modern building geometric lines",
@@ -132,6 +149,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-mixed-use-development.jpg",
     page: "Who We Serve",
+    source: "Pexels",
     queries: [
       "mixed use development retail offices",
       "commercial residential plaza modern",
@@ -141,6 +159,7 @@ export const imageAssets = [
   {
     file: "property-types-commercial-assets.jpg",
     page: "Property Types",
+    source: "Pexels",
     queries: [
       "commercial strips retail units office spaces",
       "modern retail office building collage",
@@ -150,6 +169,7 @@ export const imageAssets = [
   {
     file: "insights-leasing-strategy-desk.jpg",
     page: "Insights",
+    source: "Unsplash",
     queries: [
       "commercial real estate strategy meeting",
       "property management analytics dashboard",
@@ -159,6 +179,7 @@ export const imageAssets = [
   {
     file: "contact-premium-office-lobby.jpg",
     page: "Contact",
+    source: "Pexels",
     queries: [
       "premium office reception lobby",
       "modern building reception desk marble",
@@ -168,6 +189,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-commercial-building-owners.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "commercial office tower owner property exterior",
       "premium commercial building facade daylight",
@@ -177,6 +199,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-administrative-building-owners.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "administrative office building professional exterior",
       "corporate office block architecture clean lines",
@@ -186,6 +209,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-real-estate-developers.jpg",
     page: "Who We Serve Card",
+    source: "Unsplash",
     queries: [
       "real estate development site planning meeting",
       "developer reviewing commercial project model",
@@ -195,6 +219,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-retail-strip-owners.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "modern retail strip center exterior",
       "community retail plaza storefronts daylight",
@@ -204,6 +229,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-office-building-owners.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "premium office tower glass exterior",
       "modern business center facade urban",
@@ -213,6 +239,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-mixed-use-project-owners.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "mixed use development retail offices public realm",
       "urban mixed use complex premium architecture",
@@ -222,6 +249,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-asset-investors.jpg",
     page: "Who We Serve Card",
+    source: "Unsplash",
     queries: [
       "commercial real estate investor meeting premium",
       "asset investment strategy documents office",
@@ -231,6 +259,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-facility-management-companies.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "facility management team building operations",
       "commercial property operations inspection professional",
@@ -240,6 +269,7 @@ export const imageAssets = [
   {
     file: "who-we-serve-underperforming-assets.jpg",
     page: "Who We Serve Card",
+    source: "Pexels",
     queries: [
       "older commercial property needing repositioning",
       "vacant commercial units exterior urban",
