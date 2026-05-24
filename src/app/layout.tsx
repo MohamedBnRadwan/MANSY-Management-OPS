@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   },
   description:
     "Property management and leasing strategy for commercial, administrative, retail, and mixed-use assets.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {

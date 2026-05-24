@@ -975,7 +975,7 @@ code {
   padding-top: 150px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1260px) {
   .header-inner {
     gap: 0;
     grid-template-columns: 1fr;
